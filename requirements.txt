@@ -1,0 +1,3 @@
+numpy>=1.26,<3
+scipy>=1.12,<2
+PyAudioWPatch>=0.2.12.6,<0.3

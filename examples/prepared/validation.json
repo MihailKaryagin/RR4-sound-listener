@@ -1,0 +1,192 @@
+{
+  "note": "Separate repeated pulses from the same videos, NOT independent sessions or background validation.",
+  "samples": [
+    {
+      "file": "positive_krasnaya_01.wav",
+      "source": "krasnaya.wav",
+      "start": 0.22999999999999998,
+      "end": 1.03
+    },
+    {
+      "file": "positive_krasnaya_02.wav",
+      "source": "krasnaya.wav",
+      "start": 1.27,
+      "end": 2.04
+    },
+    {
+      "file": "positive_sinaya_01.wav",
+      "source": "sinaya.wav",
+      "start": 0.9600000000000001,
+      "end": 1.7200000000000002
+    },
+    {
+      "file": "positive_sinaya_02.wav",
+      "source": "sinaya.wav",
+      "start": 1.96,
+      "end": 2.7600000000000002
+    },
+    {
+      "file": "positive_zelenaya_01.wav",
+      "source": "zelenaya.wav",
+      "start": 0.38,
+      "end": 1.1800000000000002
+    },
+    {
+      "file": "positive_zelenaya_02.wav",
+      "source": "zelenaya.wav",
+      "start": 1.4,
+      "end": 2.19
+    }
+  ],
+  "validation": [
+    {
+      "source": "krasnaya",
+      "start": 2.27,
+      "end": 3.06,
+      "score": 0.9913,
+      "match": "positive_krasnaya_02"
+    },
+    {
+      "source": "sinaya",
+      "start": 2.96,
+      "end": 3.7600000000000002,
+      "score": 0.9965,
+      "match": "positive_sinaya_02"
+    },
+    {
+      "source": "sinaya",
+      "start": 3.96,
+      "end": 4.75,
+      "score": 0.9894,
+      "match": "positive_sinaya_02"
+    },
+    {
+      "source": "sinaya",
+      "start": 4.97,
+      "end": 5.7700000000000005,
+      "score": 0.9975,
+      "match": "positive_sinaya_02"
+    },
+    {
+      "source": "zelenaya",
+      "start": 2.38,
+      "end": 3.21,
+      "score": 0.9861,
+      "match": "positive_zelenaya_01"
+    },
+    {
+      "source": "zelenaya",
+      "start": 3.4299999999999997,
+      "end": 4.23,
+      "score": 0.9926,
+      "match": "positive_zelenaya_01"
+    },
+    {
+      "source": "zelenaya",
+      "start": 4.43,
+      "end": 5.23,
+      "score": 0.9896,
+      "match": "positive_zelenaya_01"
+    },
+    {
+      "source": "zelenaya",
+      "start": 5.41,
+      "end": 6.24,
+      "score": 0.9931,
+      "match": "positive_zelenaya_02"
+    },
+    {
+      "source": "zelenaya",
+      "start": 6.4399999999999995,
+      "end": 7.24,
+      "score": 0.997,
+      "match": "positive_zelenaya_01"
+    }
+  ],
+  "cross_scores": {
+    "krasnaya": {
+      "krasnaya": 0.9913,
+      "sinaya": 0.0954,
+      "zelenaya": 0.3357
+    },
+    "sinaya": {
+      "krasnaya": 0.1042,
+      "sinaya": 0.9965,
+      "zelenaya": 0.0
+    },
+    "zelenaya": {
+      "krasnaya": 0.3311,
+      "sinaya": 0.0,
+      "zelenaya": 0.9861
+    }
+  },
+  "stream_validation": [
+    {
+      "source": "krasnaya",
+      "gain": 1.0,
+      "detections": [
+        {
+          "time": 1.5,
+          "match": "positive_krasnaya_02",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "source": "krasnaya",
+      "gain": 0.25,
+      "detections": [
+        {
+          "time": 1.5,
+          "match": "positive_krasnaya_02",
+          "score": 0.9746
+        }
+      ]
+    },
+    {
+      "source": "sinaya",
+      "gain": 1.0,
+      "detections": [
+        {
+          "time": 1.25,
+          "match": "positive_sinaya_02",
+          "score": 0.9942
+        }
+      ]
+    },
+    {
+      "source": "sinaya",
+      "gain": 0.25,
+      "detections": [
+        {
+          "time": 1.25,
+          "match": "positive_sinaya_02",
+          "score": 0.9881
+        }
+      ]
+    },
+    {
+      "source": "zelenaya",
+      "gain": 1.0,
+      "detections": [
+        {
+          "time": 1.75,
+          "match": "positive_zelenaya_01",
+          "score": 0.9937
+        }
+      ]
+    },
+    {
+      "source": "zelenaya",
+      "gain": 0.25,
+      "detections": [
+        {
+          "time": 1.75,
+          "match": "positive_zelenaya_01",
+          "score": 0.9872
+        }
+      ]
+    }
+  ],
+  "installed_to": "C:\\Users\\misak\\AppData\\Local\\RF4Notifier\\samples"
+}
